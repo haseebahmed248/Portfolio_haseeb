@@ -14,9 +14,9 @@ function Navbar() {
   <a
     href="#about"
     onClick={(e) => {
-      e.preventDefault(); // Prevent the default link click behavior
+      e.preventDefault(); 
       handleSetActive('about');
-      window.scrollTo(0, 0); // Scroll to the top of the page
+      window.scrollTo(0, 0);
     }}
     className={`inline-block py-2 transition-all duration-100 ease-in-out transform ${activeSection === 'about' ? 'text-xl' : 'group-hover:text-xl'}`}
   >

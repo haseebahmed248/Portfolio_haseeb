@@ -8,11 +8,11 @@ import Projects from "./components/Projects";
 import LightEffect from "./utils/Light";
 
 function App() {
-  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1000);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 800);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsLargeScreen(window.innerWidth > 1000);
+      setIsLargeScreen(window.innerWidth > 800);
     };
 
     window.addEventListener('resize', handleResize);
