@@ -35,7 +35,7 @@ function Projects() {
 
   return (
     <section
-      className='mt-28 md:max-w-2xl max-w-fit px-6 p-5'
+      className='mt-28 md:max-w-2xl max-w-sm px-6 p-5'
       id="projects"
     >
       {projects.map((project, index) => (

@@ -32,7 +32,7 @@ function LightEffect() {
     };
   }, []);
 
-  return <div ref={lightRef} id="light"></div>;
+  return <div ref={lightRef} id="light" className='md:w-full max-w-xs' ></div>;
 }
 
 export default LightEffect;

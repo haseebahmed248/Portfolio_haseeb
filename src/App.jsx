@@ -23,9 +23,9 @@ function App() {
   }, [window.screen.width]); 
 
   return (
-    <div className="mt-14 md:flex block">
+    <div className="mt-14 md:flex block max-w-screen-sm">
       <LightEffect />
-      <div className="max-w-7xl md:fixed">
+      <div className="w-full md:max-w-7xl max-w-96 md:fixed">
         <Hero />
         <Navbar />
         <Footer />
