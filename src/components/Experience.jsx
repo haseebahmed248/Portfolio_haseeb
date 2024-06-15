@@ -12,7 +12,7 @@ function Experience() {
 
   return (
     <section
-      className='mt-28 mb-10 md:max-w-2xl max-w-sm px-6 p-5 md:flex hover:backdrop-brightness-125 transition-all duration-200 rounded border-transparent hover:border-gray-500 hover:shadow-lg'
+      className='mt-28 mb-10 max-w-xs sm:max-w-sm md:max-w-2xl px-6 p-5 md:flex hover:backdrop-brightness-125 transition-all duration-200 rounded border-transparent hover:border-gray-500 hover:shadow-lg'
       id="experience"
     >
       {experiences.map((experience, index) => (
