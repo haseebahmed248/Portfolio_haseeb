@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #14142c;
+  background-color: rgba(18,18,43,255);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,3 +27,15 @@ body {
   min-height: 100vh;
 }
 
+
+
+#light {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.363) 0%, rgba(255, 255, 255, 0.137) 100%);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  filter: blur(80px);
+}

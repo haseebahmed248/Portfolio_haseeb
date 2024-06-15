@@ -2,8 +2,8 @@ import React from 'react'
 
 function HeroData() {
   return (
-    <div 
-        className='mt-24 md:max-w-2xl max-w-xl px-6'
+    <section 
+        className='mt-24 md:max-w-2xl max-w-xl px-6' id="about"
     >
         <p className=' text-2xl text-white-800 md:hidden mb-3' style={{
             fontWeight:'300px'  
@@ -13,7 +13,7 @@ function HeroData() {
 My main focus these days is building accessible user interfaces for our customers at Klaviyo. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.
 
 When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.</p>
-    </div>
+    </section>
   )
 }
 
